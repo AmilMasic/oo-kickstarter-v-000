@@ -14,7 +14,8 @@ class Backer
     # binding.pry
     # project.title = title
     @backed_projects << project.title
-    project.add_backer(self.name)
+    backer = self.name
+    project.add_backer(backer)
 
 
   end
