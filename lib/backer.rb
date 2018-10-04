@@ -13,7 +13,7 @@ class Backer
     # binding.pry
     # project.title = title
     @backed_projects << title
-
+    project.backers << self.name
 
 
   end
